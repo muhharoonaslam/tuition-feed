@@ -1,0 +1,226 @@
+
+/* Body START*/
+body{
+  font-family: "Myriad Pro";
+  font-weight: bold;
+}
+/* Body END*/
+.container-fluid{
+  padding-right: 0px;
+  padding-left: 0px;
+}
+/* Nav START*/
+.navbar-default {
+  background-color: #4dae4a;
+  border-color: #ffffff;
+}
+.navbar-default .navbar-brand {
+  color: #ecf0f1;
+}
+.navbar-default .navbar-brand:hover,
+.navbar-default .navbar-brand:focus {
+  color: #000000;
+}
+.navbar-default .navbar-text {
+  color: #ecf0f1;
+}
+.navbar-default .navbar-nav > li > a {
+	
+  color: #ecf0f1;
+}
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+  
+  color: #000000;
+}
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a:focus {
+  color: #ffffff;
+  background-color: #4dae4a;
+   border-bottom: 6px solid black;
+}
+.navbar-default .navbar-nav > .open > a,
+.navbar-default .navbar-nav > .open > a:hover,
+.navbar-default .navbar-nav > .open > a:focus {
+  color: #000000;
+  background-color: #ffffff;
+}
+.navbar-default .navbar-toggle {
+  border-color: #ffffff;
+}
+.navbar-default .navbar-toggle:hover,
+.navbar-default .navbar-toggle:focus {
+  background-color: #ffffff;
+}
+.navbar-default .navbar-toggle .icon-bar {
+  background-color: #ecf0f1;
+}
+.navbar-default .navbar-collapse,
+.navbar-default .navbar-form {
+  border-color: #ecf0f1;
+}
+.navbar-default .navbar-link {
+  color: #ecf0f1;
+}
+.navbar-default .navbar-link:hover {
+  color: #000000;
+}
+
+@media (max-width: 767px) {
+  .navbar-default .navbar-nav .open .dropdown-menu > li > a {
+    color: #ecf0f1;
+  }
+  .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover,
+  .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus {
+    color: #000000;
+  }
+  .navbar-default .navbar-nav .open .dropdown-menu > .active > a,
+  .navbar-default .navbar-nav .open .dropdown-menu > .active > a:hover,
+  .navbar-default .navbar-nav .open .dropdown-menu > .active > a:focus {
+    color: #000000;
+    background-color: #ffffff;
+  }
+}
+.top-menu :hover{
+  color:black;
+}
+.top-menu :active{
+  color:black;
+}
+.top-menu li{
+  color:blue;
+}
+/* Nav END*/
+
+/* NO MARGIN OR OTHER MARGINS*/
+.nomargin-bottom{
+	margin-bottom:0px;
+}
+/* NO MARGIN OR OTHER MARGINS END*/
+
+/* BUTTONS START */
+.post-button{
+	  background : #1488B7;
+  background : rgba(20, 136, 183, 1);
+  border-style : Solid;
+  border-color : #231F20;
+  border-color : rgba(35, 31, 32, 1);
+  border-width : 0px;
+  border-radius : 0px;
+  -moz-border-radius : 0px;
+  -webkit-border-radius : 0px;
+  padding:3px;
+  width: 147px;
+}
+
+/* BUTTONS END */
+
+/* post DETAILS Start */
+.col-md-9 {
+  border-bottom: 2px solid lightgrey;
+
+}
+.post-details span{
+	color:#4DAE4A;
+
+}
+.fa-circle {
+  font-size: 10px !important;
+}
+.post-details button{
+	border-radius: 2px;
+	padding-left:30px;
+	padding-right:30px;
+    width: 111px;
+}
+.post-details p{
+	color:#59595B;
+}
+div.post-hover:hover{
+  background: #f2f2f2;
+  border-radius: 4px;
+}
+.mybtn-blue {
+   color: blue;
+}
+.mybtn-red {
+   color: #ea3939;
+}
+.mybtn-inactive {
+   color: grey;
+}
+
+.tutor-gender{
+  font-size: 14px;
+}
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 2px solid #ccc;
+    margin: 5px 0;
+    padding: 0; 
+}
+/* post DETAILS Start */
+
+/* Forms  Start */
+.filter{
+height:350px;
+border:1px solid grey ;
+border-radius: 5px;
+padding: 0px;
+margin:0px;
+  font-weight: normal;
+}
+.filter p{
+  font-size: 20px;
+  color: #59595A;
+}
+.filter label{
+  color: #59595A;
+}
+.filter form{
+margin: 5px;
+padding: 15px;
+padding-top: 2px;
+
+}
+.filter input{
+margin-top: 15px;
+}
+
+label input[type="radio"]{
+  color: #c8c8c8;    display: inline;
+}
+label input[type="radio"]{
+  display: none;
+}
+label input[type="radio"]:checked {
+  display: none;
+}
+label input[type="radio"]:checked {
+  color: #7AA3CC;    display: inline;
+}
+label:hover input[type="radio"]  {
+  color: #7AA3CC;
+}
+
+/* Align Start */
+.pull-right {
+  float: right !important;
+  margin-right:14px !important;
+}
+.pull-left {
+  float: left !important;
+}
+.center-block {
+  display: block !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
+}
+.padding--left-none{
+  padding-left: 0px;
+}
+/* Align Start */
